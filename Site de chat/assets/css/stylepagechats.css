@@ -1,0 +1,239 @@
+/*Haut de page*/
+
+#titredusite {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+}
+
+#retourindex {
+    text-decoration: none;
+    color: black;
+}
+
+#retourindex:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Comme', sans-serif;
+    background-image: url(/assets/img/backgroundorange.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.protectionanimaux {
+    padding-top: 10px;
+    color: black;
+    
+}
+
+.protectionanimaux:hover {
+    text-decoration: none;
+}
+
+.noschats {
+    padding-top: 15px;
+    color: black;
+}
+
+.noschats:hover {
+    text-decoration: none;
+}
+
+.noslocaux {
+    padding-top: 15px;
+    color: black;
+}
+
+.noslocaux:hover {
+    text-decoration: none;
+}
+
+.contacteznous {
+    padding-top: 15px;
+    color: black;
+}
+
+.contacteznous:hover {
+    text-decoration: none;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    background-image: url(/assets/img/tetedechatlogo.png);
+    background-size: 100%;
+} 
+
+/*Principal*/
+
+.p1 {
+   text-align: center;
+   font-family: 'Comme', sans-serif;
+}
+
+.carteschats {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+.chat1 {
+    height: 400px;
+    width: 300px;
+    grid-row: 1/3;
+    grid-column: 1/3;
+    background-image: url(/assets/img/chat1.jpeg);
+    background-size: 100%;
+    border: 2px solid black;
+}
+
+.chat1:hover {
+    border: hidden;
+    scale: 1.1;
+}
+
+.chat2 {
+    height: 400px;
+    width: 300px;
+    grid-row: 1/3;
+    grid-column: 2/3;
+    background-image: url(/assets/img/chat2.jpg);
+    background-size: 100%;
+    border: 2px solid black;
+}
+
+.chat2:hover {
+    border: hidden;
+    scale: 1.1;
+}
+
+.chat3 {
+    height: 400px;
+    width: 300px;
+    grid-row: 1/3;
+    grid-column: 3/3;
+    background-image: url(/assets/img/chat3.jpg);
+    background-size: auto;
+    border: 2px solid black;
+}
+
+.chat3:hover {
+    border: hidden;
+    scale: 1.1;
+}
+
+.chat4 {
+    height: 400px;
+    width: 300px;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    background-image: url(/assets/img/chat4.jpg);
+    background-size: auto;
+    border: 2px solid black;
+}
+
+.chat4:hover {
+    border: hidden;
+    scale: 1.1;
+}
+
+.chat5 {
+    height: 400px;
+    width: 300px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-image: url(/assets/img/chat5.jpeg);
+    background-size: 100%;
+    border: 2px solid black;
+}
+
+.chat5:hover {
+    border: hidden;
+    scale: 1.1;
+}
+
+.chat6 {
+    height: 400px;
+    width: 300px;
+    grid-row: 2/3;
+    grid-column: 3/3;
+    background-image: url(/assets/img/chat6.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+.chat6:hover {
+    border: hidden;
+    scale: 1.1;
+}
+
+.chat7 {
+    height: 400px;
+    width: 300px;
+    grid-row: 3/3;
+    grid-column: 1/3;
+    background-image: url(/assets/img/chat7.jpg);
+    background-size: 100%;
+    border: 2px solid black;
+}
+
+.chat7:hover {
+    border: hidden;
+    scale: 1.1;
+}
+
+.chat8 {
+    height: 400px;
+    width: 300px;
+    grid-row: 3/3;
+    grid-column: 2/3;
+    background-image: url(/assets/img/chat8.JPG);
+    background-size: 100%;
+    border: 2px solid black;
+}
+
+.chat8:hover {
+    border: hidden;
+    scale: 1.1;
+}
+
+.chat9 {
+    height: 400px;
+    width: 300px;
+    grid-row: 3/3;
+    grid-column: 3/3;
+    background-image: url(/assets/img/chat9.jpg);
+    background-size: 100%;
+    border: 2px solid black;
+}
+
+.chat9:hover {
+    border: hidden;
+    scale: 1.1;
+}
+
+/*Bas de page*/
+#bannierereseaux {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    font-family: 'Comme', sans-serif;
+}
+
+.suiveznous {
+    height: auto;
+    width: auto;
+}
+/*mentions légales*/
+.mentionslegales {
+    text-align: center;
+    font-family: 'Comme', sans-serif;
+}

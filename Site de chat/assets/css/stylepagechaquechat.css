@@ -1,0 +1,103 @@
+/*Haut de page*/
+
+#titredusite {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+}
+
+#retourindex {
+    text-decoration: none;
+    color: black;
+}
+
+#retourindex:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Comme', sans-serif;
+    background-image: url(/assets/img/backgroundorange.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.protectionanimaux {
+    padding-top: 10px;
+    color: black;
+    
+}
+
+.protectionanimaux:hover {
+    text-decoration: none;
+}
+
+.noschats {
+    padding-top: 15px;
+    color: black;
+}
+
+.noschats:hover {
+    text-decoration: none;
+}
+
+.noslocaux {
+    padding-top: 15px;
+    color: black;
+}
+
+.noslocaux:hover {
+    text-decoration: none;
+}
+
+.contacteznous {
+    padding-top: 15px;
+    color: black;
+}
+
+.contacteznous:hover {
+    text-decoration: none;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    background-image: url(/assets/img/tetedechatlogo.png);
+    background-size: 100%;
+}
+
+/* Principal */
+
+.presentationchat {
+    font-family: 'Comme', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.bouton {
+    font-family: 'Comme', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/*Bas de page*/
+#bannierereseaux {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    font-family: 'Comme', sans-serif;
+}
+
+.suiveznous {
+    height: auto;
+    width: auto;
+}
+/*mentions légales*/
+.mentionslegales {
+    text-align: center;
+    font-family: 'Comme', sans-serif;
+}

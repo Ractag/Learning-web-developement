@@ -1,0 +1,91 @@
+/*Menu et bannière*/
+#titredusite {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+}
+
+#retourindex {
+    text-decoration: none;
+    color: black;
+}
+
+#retourindex:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Comme', sans-serif;
+    background-image: url(/assets/img/backgroundorange.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.protectionanimaux {
+    padding-top: 10px;
+    color: black;
+    
+}
+
+.protectionanimaux:hover {
+    text-decoration: none;
+}
+
+.noschats {
+    padding-top: 15px;
+    color: black;
+}
+
+.noschats:hover {
+    text-decoration: none;
+}
+
+.noslocaux {
+    padding-top: 15px;
+    color: black;
+}
+
+.noslocaux:hover {
+    text-decoration: none;
+}
+
+.contacteznous {
+    padding-top: 15px;
+    color: black;
+}
+
+.contacteznous:hover {
+    text-decoration: none;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    background-image: url(/assets/img/tetedechatlogo.png);
+    background-size: 100%;
+}
+
+#intro {
+    text-align: center;
+    line-height: 30px;
+    padding-top: 20px;
+    margin: 0 20% 0 20%;
+    font-family: 'Comme', sans-serif;
+}
+
+#texte {
+    line-height: 30px;
+    margin: 0 20% 0 20%;
+    font-family: 'Comme', sans-serif;
+}
+
+.bouton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Comme', sans-serif;
+}
